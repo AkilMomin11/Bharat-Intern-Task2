@@ -2,25 +2,32 @@
 
 body {
     font-family: "Sans-Seriferif";
-    
     color:#4d358a;
+    background-color: #ccc;
 }
 
 header {
     text-align: center;
     padding: 20px;
     font-family: 'Gill Sans';
-    background-color: #73707a;
+    background-color: #c5c0d1;
     font-weight: 700;
+}
+
+h3{
+    text-align: center;
+    color: rgb(4, 4, 119);
+    text-shadow: 4px 5px 4px rgba(10, 6, 6, 0.8);
+    font-weight: bold;
 }
 
 
 .chat-container {
     width: 400px;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-bottom: 40px;
     padding: 30px;
-    border: 3px solid #8f6de4;
+    border: 3px solid ;
     border-radius: 7px;
 }
 
@@ -31,7 +38,7 @@ header {
 }
 
 .user-message {
-    color: white;
+    color: black;
 }
 
 .other-message {
@@ -47,9 +54,7 @@ header {
 
 .message input[type="submit"] {
     padding: 5px 10px;
-    background-color: #4CAF50;
     color: #fff;
-    border: none;
     border-radius: 3px;
     cursor: pointer;
 }
@@ -61,7 +66,7 @@ header {
 .user-details input[type="text"] {
     width: 100%;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #c72f2f;
     border-radius: 3px;
 }
 
@@ -111,8 +116,8 @@ header {
 }
 
 h4 {
-    color: black;
-    text-shadow: 2px 2px 4px rgba(10, 6, 63, 0.8);
+    color: rgb(28, 28, 31);
+    text-shadow: 4px 5px 4px rgba(10, 6, 6, 0.8);
 }
 
 .card {
@@ -152,15 +157,14 @@ h4 {
     width: 100%;
 }
 
-.table th,
-.table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+.table th {
+    background-color: #e99b9b;
 }
 
-.table th {
-    background-color: #f2f2f2;
+.table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
 }
 
 .modal-content {

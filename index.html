@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8" />
@@ -28,6 +28,9 @@
       <img src="pmt1.jpg" alt="Your Image">
     </div>
     <div class="card">
+      <div class="heading">
+      <h3>Project Dashboard</h3>
+    </div>
       <div class="form-group">
         <h4 >New User</h4>
         <input type="text" name="new_project" id="add-project" class="form-control" placeholder="User Name" />
@@ -35,17 +38,19 @@
         <button type="button" onclick="taskObj.addProject();" class="btn btn-primary" style="margin-top: 10px">
           Add User
         </button>
+        <br/>
       </div>
-      <div class="row" style="margin-bottom: 50px">
+      <div class="row" style="margin-bottom: 60px">
         <div class="col-md-12">
           
           <form method="POST" onsubmit="return taskObj.deleteProject(this);" style="display: contents">
             <select name="project" class="form-control" style="
                 display: initial;
-                width: 200px;
-                margin-left: 5px;
-                margin-right: 5px;
+                width: 300px;
+                margin-left: 7px;
+                margin-right: 7px;
               " id="form-task-hour-calculator-all-projects"></select>
+              
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addTaskModal">
                 Add Task
               </button>

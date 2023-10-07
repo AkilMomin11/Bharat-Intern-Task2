@@ -8,6 +8,7 @@ var taskObj = {
       }
   
       var option = "";
+      
       if (localStorage.getItem(this.key) == null) {
         localStorage.setItem(this.key, "[]");
       }
